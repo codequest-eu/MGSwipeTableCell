@@ -90,6 +90,19 @@ class MailViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     func refreshCallback() {
         prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
+        prepareDemoData();
     }
     func deleteMail(_ path:IndexPath) {
         demoData.remove(at: (path as NSIndexPath).row);
